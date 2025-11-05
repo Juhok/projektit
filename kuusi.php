@@ -11,7 +11,7 @@
   <!-- Lumihiutaleet -->
   <?php
   for ($i = 0; $i < 40; $i++) {
-      $vasen = rand(0, 100);        // sijainti vaakasuunnassa
+      $vasen = rand(0, 100);        // sijainti vaakasuunnassa taustassa
       $viive = rand(0, 100) / 10;   // animaation aloitusviive
       $kesto = rand(8, 18);         // eri nopeudet
       $koko = rand(10, 20);         // hiutaleen koko
